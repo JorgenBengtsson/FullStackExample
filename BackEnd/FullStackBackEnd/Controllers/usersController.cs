@@ -7,11 +7,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Http.Description;
 using FullStackBackEnd.Models;
 
 namespace FullStackBackEnd.Controllers
 {
+    [EnableCors(origins: "http://localhost:3000", headers: "*", methods: "*")]
     public class usersController : ApiController
     {
         private FullStackExampleEntities db = new FullStackExampleEntities();

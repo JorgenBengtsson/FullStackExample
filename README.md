@@ -12,6 +12,7 @@ BackEnd
 Visual Studio 2017
 .Net Framework 4.7.1
 Entity Framework 6.3.0
+Microsoft.AspNet.WebApi.Cors 5.2.7
 
 FrontEnd
 ...
